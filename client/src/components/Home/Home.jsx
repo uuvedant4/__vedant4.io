@@ -94,8 +94,8 @@ const Home = ({ timelines }) => {
 
     const animate = () => {
       requestAnimationFrame(animate);
-      moon.rotation.y += 0.001;
-      venus.rotation.y += 0.001;
+      moon.rotation.y += 0.0008;
+      venus.rotation.y += 0.0008;
       renderer.setSize(window.innerWidth, window.innerHeight);
       renderer.render(scene, camera);
     };
@@ -131,8 +131,8 @@ const Home = ({ timelines }) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">Software</Typography>
-          <Typography variant="h2">Developer</Typography>
+          <Typography variant="h2">SOFTWARE</Typography>
+          <Typography variant="h2">DEVELOPER</Typography>
         </div>
 
         <Link to="/projects">VIEW WORK</Link>
@@ -213,5 +213,3 @@ const Home = ({ timelines }) => {
 };
 
 export default Home;
-
-// 01:06:00

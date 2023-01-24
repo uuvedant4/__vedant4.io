@@ -3,7 +3,7 @@
   max-width: 100%;
   height: 100vh;
   max-width: 100%;
-  filter: blur(10px);
+  filter: blur(7px);
   position: absolute;
 }
 
@@ -23,10 +23,10 @@
   top: 50%;
   left: 0%;
   background-color: white;
-  padding: 1.5vmax;
+  padding: 1.6vmax;
   transform: translate(0%, -50%);
   text-align: center;
-  font: 800 2.9vmax "Josefin Sans", sans-serif;
+  font: 900 2.8vmax "Josefin Sans", sans-serif;
 }
 .homeCanvasContainer > h1 > p {
   transition: all 0.5s;
@@ -46,8 +46,8 @@
 
 .homeCanvasBox > h2 {
   font: 900 4rem "Ubuntu Mono", "Roboto";
-  letter-spacing: 15px;
-  line-height: 120px;
+  letter-spacing: 22px;
+  line-height: 130px;
   color: white;
 }
 .homeCanvasContainer > a {

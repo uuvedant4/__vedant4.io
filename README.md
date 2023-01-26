@@ -4,7 +4,7 @@
 
 <br/>
 
->##### *🏠 HOMEPAGE SNAP*
+### *🏠 HOMEPAGE SNAP*
 <h1 align="center">
 	<img alt="Final Homepage" src="https://github.com/uuvedant4/__vedant4.io/blob/main/homePageSnap.gif"/>
 </h1>

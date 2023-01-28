@@ -1,0 +1,37 @@
+{
+  "name": "uuvedant4.io",
+  "version": "1.0.0",
+  "description": "A full-stack web portfolio using Three.js, Cloudinary, MongoDB, Express.js, Node.js, and React. User authentication, authorization, and profile editing feature integrated.",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "cloudinary": "^1.29.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.2.8",
+    "nodemailer": "^6.7.3"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uuvedant4/__vedant4.io.git"
+  },
+  "keywords": [
+    "three.js",
+    "react.js",
+    "node.js",
+    "mongodb",
+    "express",
+    "cloudinary"
+  ],
+  "author": "Vedant Yetekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uuvedant4/__vedant4.io/issues"
+  },
+  "homepage": "https://github.com/uuvedant4/__vedant4.io#readme"
+}

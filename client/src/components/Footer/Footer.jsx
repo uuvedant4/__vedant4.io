@@ -16,7 +16,7 @@ const Footer = () => {
         </Typography>
 
         <Link to="/contact" className="footerContactBtn">
-          <Typography>Contact Us</Typography>
+          <Typography>Contact us</Typography>
         </Link>
       </div>
       <div>

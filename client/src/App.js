@@ -7,8 +7,15 @@ import About from "./components/About/About.jsx";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
+import { useLayoutEffect } from "react";
 
 function App() {
+  useLayoutEffect(() => {
+    alert(
+      "NOTE: This app is currently undergoing a rebuild and work is in progress. Some features might not be available."
+    );
+  }, []);
+
   return (
     <Router>
       <Header />
